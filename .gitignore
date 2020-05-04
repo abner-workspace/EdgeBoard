@@ -1,32 +1,5 @@
-# Prerequisites
-*.d
-
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
+# /ARM/beta
+/FPGA/fw/par/vivado/Xil
+/FPGA/fw/par/vivado/EdgeBoard
+/FPGA/sim/tb_prj/modelsim_lib
+/FPGA/sim/tb_prj/*.wlf
