@@ -70,6 +70,13 @@ generate
                         })
         );
 
+        // DSP48 INT8 Mux: p = a * b + c
+        // Pipleline Options = Expert
+        // Tier : B5 C6
+        // Control prots = CE_Global
+        // Input Port Properties = A18 B8 C48
+        // Output Port Properties = Full Precision(48)
+        // Delay      = 2
         ip_scaler_dsp_h ip_scaler_dsp_h (
             .CLK( clk          ),  // input wire CLK
             .CE ( dsp_en [i]   ),
