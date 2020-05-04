@@ -1,0 +1,18 @@
+/include/ "system-conf.dtsi"
+/ {
+};
+
+&sdhci1 {
+	status = "okay";
+	max-frequency = <50000000>;
+	no-1-8-v; /* for 1.0 silicon */
+	disable-wp;
+};
+
+&dwc3_0 {
+	status = "okay";
+	dr_mode = "host";
+
+	/* dr_mode = "host"; */ 
+	/* dr_mode = "peripheral"; */
+};
